@@ -14,3 +14,17 @@
 
 }
 @end
+
+@implementation CityModel
+-(void)setValue:(id)value forUndefinedKey:(NSString *)key
+{
+    
+}
+@end
+
+@implementation AreaModel
+-(void)setValue:(id)value forUndefinedKey:(NSString *)key
+{
+    
+}
+@end

@@ -20,8 +20,6 @@
 		A0A95A3C211ADC4A0077D103 /* WJ_AddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A95A3B211ADC4A0077D103 /* WJ_AddressPickerView.m */; };
 		A0A95A41211AE65E0077D103 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0A95A3F211AE65E0077D103 /* area.plist */; };
 		A0A95A42211AE65E0077D103 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0A95A40211AE65E0077D103 /* city.plist */; };
-		A0A95A49211AE6A10077D103 /* AreaModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A95A46211AE6A00077D103 /* AreaModel.m */; };
-		A0A95A4A211AE6A10077D103 /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A95A47211AE6A00077D103 /* CityModel.m */; };
 		A0A95A4B211AE6A10077D103 /* ProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A95A48211AE6A10077D103 /* ProvinceModel.m */; };
 /* End PBXBuildFile section */
 
@@ -68,10 +66,6 @@
 		A0A95A3F211AE65E0077D103 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
 		A0A95A40211AE65E0077D103 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
 		A0A95A43211AE6A00077D103 /* ProvinceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProvinceModel.h; sourceTree = "<group>"; };
-		A0A95A44211AE6A00077D103 /* CityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
-		A0A95A45211AE6A00077D103 /* AreaModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaModel.h; sourceTree = "<group>"; };
-		A0A95A46211AE6A00077D103 /* AreaModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaModel.m; sourceTree = "<group>"; };
-		A0A95A47211AE6A00077D103 /* CityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityModel.m; sourceTree = "<group>"; };
 		A0A95A48211AE6A10077D103 /* ProvinceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,10 +127,6 @@
 				A0A95A3B211ADC4A0077D103 /* WJ_AddressPickerView.m */,
 				A0A95A2A211A939A0077D103 /* NSDate+Expend.h */,
 				A0A95A2B211A939A0077D103 /* NSDate+Expend.m */,
-				A0A95A45211AE6A00077D103 /* AreaModel.h */,
-				A0A95A46211AE6A00077D103 /* AreaModel.m */,
-				A0A95A44211AE6A00077D103 /* CityModel.h */,
-				A0A95A47211AE6A00077D103 /* CityModel.m */,
 				A0A95A43211AE6A00077D103 /* ProvinceModel.h */,
 				A0A95A48211AE6A10077D103 /* ProvinceModel.m */,
 				A0A95A3F211AE65E0077D103 /* area.plist */,
@@ -300,10 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A95A4A211AE6A10077D103 /* CityModel.m in Sources */,
 				A0A95A3C211ADC4A0077D103 /* WJ_AddressPickerView.m in Sources */,
 				A0A959FA211A87AF0077D103 /* ViewController.m in Sources */,
-				A0A95A49211AE6A10077D103 /* AreaModel.m in Sources */,
 				A0A95A29211A87CF0077D103 /* WJ_datePickerView.m in Sources */,
 				A0A95A05211A87B00077D103 /* main.m in Sources */,
 				A0A95A4B211AE6A10077D103 /* ProvinceModel.m in Sources */,

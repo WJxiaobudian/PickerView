@@ -7,8 +7,6 @@
 //
 
 #import "WJ_AddressPickerView.h"
-#import "AreaModel.h"
-#import "CityModel.h"
 #import "ProvinceModel.h"
 
 #define kScreenWidth self.frame.size.width
@@ -17,12 +15,16 @@
 @interface WJ_AddressPickerView()<UIPickerViewDelegate, UIPickerViewDataSource> {
     
     NSString *_title;
+    
     NSString *_provinceStr;
     NSString *_provinceCode;
+    
     NSString *_cityStr;
     NSString *_cityCode;
+    
     NSString *_areaStr;
     NSString *_areaCode;
+    
     WJDateResultBlock _resultBlock;
     NSInteger _num;
     
@@ -76,8 +78,8 @@
     }
     return self;
 }
-- (void)prepareData
-{
+
+- (void)prepareData {
     //area.plist是字典
     NSString *plistPath = [[NSBundle mainBundle] pathForResource:@"area" ofType:@"plist"];
     _areaDic = [[NSDictionary alloc]initWithContentsOfFile:plistPath];

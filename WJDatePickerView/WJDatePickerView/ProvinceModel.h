@@ -14,3 +14,19 @@
 @property(nonatomic,copy)NSArray  *cities;
 @property(nonatomic,strong)NSMutableArray *citiesArr;
 @end
+
+
+@interface CityModel : NSObject
+
+@property(nonatomic,copy)NSString *name;
+@property(nonatomic,copy)NSString *code;
+@property(nonatomic,copy)NSString *province_code;
+
+@end
+
+
+@interface AreaModel : NSObject
+@property(nonatomic,copy)NSString *code;
+@property(nonatomic,copy)NSString *name;
+@property(nonatomic,copy)NSString *city_code;
+@end
