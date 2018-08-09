@@ -28,7 +28,7 @@
     NSInteger _num;
     
     UIPickerView *_pickerView;
-    // 省市县内容
+    // 省市县
     NSDictionary *_areaDic;
     NSMutableArray *_provinceArr;
 }
@@ -64,8 +64,9 @@
     _title = title;
     _num = num;
     if (self = [super init]) {
-        [self initSubView];
         [self prepareData];
+        [self initSubView];
+        
         _resultBlock = resultValue;
     }
     return self;
@@ -252,7 +253,6 @@
         _pickerView.delegate = self;
         _pickerView.dataSource = self;
         [_pickerView selectRow:0 inComponent:0 animated:YES];
-        
     }
     return _pickerView;
 }
