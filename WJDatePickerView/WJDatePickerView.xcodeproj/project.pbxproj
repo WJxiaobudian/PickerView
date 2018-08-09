@@ -70,6 +70,7 @@
 		A0A95A48211AE6A10077D103 /* ProvinceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProvinceModel.m; sourceTree = "<group>"; };
 		A0A95A52211BDE390077D103 /* WJ_PickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJ_PickerView.h; sourceTree = "<group>"; };
 		A0A95A53211BDE390077D103 /* WJ_PickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJ_PickerView.m; sourceTree = "<group>"; };
+		A0A95A55211BEC970077D103 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +135,7 @@
 				A0A95A2B211A939A0077D103 /* NSDate+Expend.m */,
 				A0A95A43211AE6A00077D103 /* ProvinceModel.h */,
 				A0A95A48211AE6A10077D103 /* ProvinceModel.m */,
+				A0A95A55211BEC970077D103 /* Header.h */,
 				A0A95A3F211AE65E0077D103 /* area.plist */,
 				A0A95A40211AE65E0077D103 /* city.plist */,
 				A0A959FB211A87AF0077D103 /* Main.storyboard */,

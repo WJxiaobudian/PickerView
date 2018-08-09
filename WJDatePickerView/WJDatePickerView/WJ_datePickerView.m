@@ -8,9 +8,7 @@
 
 #import "WJ_datePickerView.h"
 #import "NSDate+Expend.h"
-#import "WJ_PickerView.h"
-#define kScreenWidth self.frame.size.width
-#define RGBA(r,g,b,a)   [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#import "Header.h"
 
 @interface WJ_datePickerView() {
     
@@ -41,7 +39,7 @@
     self.alertView.dismissWithAnimation = ^(NSString *string) {
         [weakSelf dismissWithAnimation:YES];
         if ([string isEqualToString:@"1"]) {
-            [weakSelf didSelectValueChanged:_datePicker];
+            [weakSelf didSelectValueChanged:weakSelf.datePicker];
         }
     };
     

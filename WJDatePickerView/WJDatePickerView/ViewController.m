@@ -55,7 +55,7 @@
 }
 
 - (void)showDatePicker:(NSArray *)array {
-    WJ_datePickerView *pick =  [[WJ_datePickerView alloc] initWithTitle:@"123" startDate:array[0] endDate:array[1] resultBlock:^(NSString *selectValue) {
+    WJ_datePickerView *pick =  [[WJ_datePickerView alloc] initWithTitle:@"选择时间" startDate:array[0] endDate:array[1] resultBlock:^(NSString *selectValue) {
         NSLog(@"_selectValue === %@",selectValue);
     }];
     [pick showWithAnimation:YES];

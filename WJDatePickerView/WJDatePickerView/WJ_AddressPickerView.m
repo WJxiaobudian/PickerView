@@ -8,21 +8,19 @@
 
 #import "WJ_AddressPickerView.h"
 #import "ProvinceModel.h"
-#import "WJ_PickerView.h"
-
-#define kScreenWidth self.frame.size.width
-#define RGBA(r,g,b,a)   [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#import "Header.h"
 
 @interface WJ_AddressPickerView()<UIPickerViewDelegate, UIPickerViewDataSource> {
     
     NSString *_title;
     
+    // 省
     NSString *_provinceStr;
     NSString *_provinceCode;
-    
+    // 市
     NSString *_cityStr;
     NSString *_cityCode;
-    
+    // 县、区
     NSString *_areaStr;
     NSString *_areaCode;
     
@@ -30,6 +28,7 @@
     NSInteger _num;
     
     UIPickerView *_pickerView;
+    // 省市县内容
     NSDictionary *_areaDic;
     NSMutableArray *_provinceArr;
 }
@@ -46,6 +45,7 @@
 @implementation WJ_AddressPickerView
 
 - (void)initSubView {
+    
     self.frame = UIScreen.mainScreen.bounds;
     [self addSubview:self.backgroundView];
     [self addSubview:self.alertView];
